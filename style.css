@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: grey;
+}
+
+#Information {
+    width: 100%;
+    background-color: mediumaquamarine;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    display: table
+}
+
+#PicOfSam {
+    border-radius: 50%;
+}
+
+.Line {
+    background-color: black;
+    height: 5;
+    width: 250px;
+    margin: auto;
+}
+
+#AboutSam {
+    text-align: center;
+    background-color: mediumaquamarine;
+}
+
+#Pages {
+    list-style: none;
+    position: center;
+    z-index: 10;
+    cursor: pointer;
+    right: 15px;
+}
+
+.Pages {
+    float: left;
+    color: blue;
+    padding: 15px;
+    font-family: 'Otomanopee One', sans-serif;
+    font-size: 150%;
+}
+#News{
+   background: linear-gradient(#000080 0%, #03ad5b 100%);
+   color: white;
+    text-align: justify;
+}
+#AnID a{
+    color: lightcyan;
+}
+.Pages a{
+    color: blue 
+}
